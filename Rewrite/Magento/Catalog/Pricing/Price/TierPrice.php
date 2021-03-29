@@ -21,7 +21,7 @@ class TierPrice extends \Magento\Catalog\Pricing\Price\TierPrice
 	$request = $objectManager->get('\Magento\Framework\App\Request\Http');
 
 	if ($request->getFullActionName() == 'catalog_category_view'){
-	 return null;
+	 return false;
 	}
 	
 	return parent:getValue();
