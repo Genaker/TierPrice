@@ -1,0 +1,22 @@
+{
+    "name": "genaker/module-tierprice",
+    "description": "Remove tier Price N SQL queries from the  category and another pages.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fsdfsdf",
+            "email": "sdfsdfdsf"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Genaker\\TierPrice\\": ""
+        }
+    }
+}
